@@ -1,66 +1,63 @@
-Neural Network from Scratch (NumPy) – MNIST Digit Classification
-This project demonstrates how to build a neural network from scratch using only NumPy and linear algebra, without relying on deep learning frameworks like TensorFlow or PyTorch. The model is trained to classify handwritten digits from the MNIST dataset.
+# Neural Network from Scratch (NumPy)
 
-📌 Features
-Fully implemented feedforward neural network using NumPy
+This project demonstrates how to build a **neural network from scratch** using only **NumPy** and linear algebra, without relying on deep learning frameworks like TensorFlow or PyTorch. 
+---
 
-Forward propagation & backpropagation implemented from scratch
+## 📌 Features
 
-Uses gradient descent for optimization
+- Fully implemented **feedforward neural network** using NumPy  
+- **Forward propagation** & **backpropagation** implemented from scratch  
+- Uses **gradient descent** for optimization  
+- Classifies MNIST handwritten digits (0–9)  
+- Great for understanding the **fundamentals of neural networks**
 
-Classifies MNIST handwritten digits (0–9)
+---
 
-Great for understanding the fundamentals of neural networks
+## 🛠️ Tech Stack
 
-🛠️ Tech Stack
-Language: Python
+- **Language**: Python  
+- **Libraries**: NumPy, Matplotlib (for visualization), Pickle (for loading MNIST dataset)
 
-Libraries: NumPy, Matplotlib (for visualization), pickle (for loading MNIST dataset)
+---
 
-📦 Installation
-Clone the repository
+## 📦 Installation
 
-bash
-Copy
-Edit
-git clone https://github.com/your-username/neural-network-from-scratch.git
-cd neural-network-from-scratch
-Install dependencies
+1. **Clone the repository**  
+   ```bash
+   git clone https://github.com/your-username/neural-network-from-scratch.git
+   cd neural-network-from-scratch
+   ```
 
-bash
-Copy
-Edit
-pip install numpy matplotlib
-Run the training script
+2. **Install dependencies**  
+   ```bash
+   pip install numpy matplotlib
+   ```
 
-bash
-Copy
-Edit
-python main.py
-🔍 How It Works
-Data Preprocessing – MNIST images are normalized and flattened into vectors.
+3. **Run the training script**  
+   ```bash
+   python main.py
+   ```
 
-Network Architecture –
+---
 
-Input layer: 784 neurons (28×28 pixels)
+## 🔍 How It Works
 
-Hidden layers: Configurable (e.g., 128, 64 neurons)
+1. **Data Preprocessing** – MNIST images are normalized and flattened into vectors.  
+2. **Network Architecture** –  
+   - Input layer: 784 neurons (28×28 pixels)  
+   - Hidden layers: Configurable (e.g., 128, 64 neurons)  
+   - Output layer: 10 neurons (digits 0–9, softmax activation)  
+3. **Training** – Uses cross-entropy loss & stochastic gradient descent.  
+4. **Prediction** – Outputs the most probable digit for a given image.
 
-Output layer: 10 neurons (digits 0–9, softmax activation)
+---
 
-Training – Uses cross-entropy loss & stochastic gradient descent.
+## 📊 Results
 
-Prediction – Outputs the most probable digit for a given image.
+- Achieves **~90–95% accuracy** on the MNIST test set after sufficient epochs.  
+- Visualizes training loss and accuracy over time.
 
-📊 Results
-Achieves ~90–95% accuracy on the MNIST test set after sufficient epochs.
 
-Visualizes training loss and accuracy over time.
+## 📜 License
 
-📸 Sample Output
-(Add a screenshot of predicted digits here if possible)
-
-📜 License
 This project is open-source and free to use for educational purposes.
-
-
