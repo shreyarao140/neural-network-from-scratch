@@ -35,7 +35,7 @@ This project demonstrates how to build a **neural network from scratch** using o
 
 3. **Run the training script**  
    ```bash
-   python nn-from-scratch.ipynb
+   jupyter lab nn-from-scratch.ipynb
    ```
 
 ---
